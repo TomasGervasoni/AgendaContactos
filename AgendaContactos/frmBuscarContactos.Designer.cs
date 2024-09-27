@@ -50,17 +50,17 @@
             this.dgvReporteContactos.Name = "dgvReporteContactos";
             this.dgvReporteContactos.RowHeadersWidth = 51;
             this.dgvReporteContactos.RowTemplate.Height = 24;
-            this.dgvReporteContactos.Size = new System.Drawing.Size(436, 164);
+            this.dgvReporteContactos.Size = new System.Drawing.Size(518, 164);
             this.dgvReporteContactos.TabIndex = 48;
             this.dgvReporteContactos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvReporteContactos_CellContentClick);
             // 
             // btnExportar
             // 
             this.btnExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportar.Location = new System.Drawing.Point(443, 184);
+            this.btnExportar.Location = new System.Drawing.Point(492, 183);
             this.btnExportar.Margin = new System.Windows.Forms.Padding(4);
             this.btnExportar.Name = "btnExportar";
-            this.btnExportar.Size = new System.Drawing.Size(103, 52);
+            this.btnExportar.Size = new System.Drawing.Size(119, 52);
             this.btnExportar.TabIndex = 47;
             this.btnExportar.Text = "Exportar";
             this.btnExportar.UseVisualStyleBackColor = true;
@@ -69,10 +69,10 @@
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(323, 184);
+            this.btnEliminar.Location = new System.Drawing.Point(356, 184);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(95, 52);
+            this.btnEliminar.Size = new System.Drawing.Size(111, 52);
             this.btnEliminar.TabIndex = 46;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             this.btnModificar.Location = new System.Drawing.Point(222, 184);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(93, 52);
+            this.btnModificar.Size = new System.Drawing.Size(109, 52);
             this.btnModificar.TabIndex = 38;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -153,10 +153,10 @@
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(554, 184);
+            this.btnVolver.Location = new System.Drawing.Point(621, 184);
             this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(103, 52);
+            this.btnVolver.Size = new System.Drawing.Size(119, 52);
             this.btnVolver.TabIndex = 49;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -178,7 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 242);
+            this.ClientSize = new System.Drawing.Size(752, 242);
             this.Controls.Add(this.btnBuscarContactos);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.dgvReporteContactos);

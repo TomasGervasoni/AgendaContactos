@@ -142,7 +142,7 @@
             this.Cargar.Location = new System.Drawing.Point(13, 268);
             this.Cargar.Margin = new System.Windows.Forms.Padding(4);
             this.Cargar.Name = "Cargar";
-            this.Cargar.Size = new System.Drawing.Size(101, 60);
+            this.Cargar.Size = new System.Drawing.Size(101, 34);
             this.Cargar.TabIndex = 18;
             this.Cargar.Text = "Agregar";
             this.Cargar.UseVisualStyleBackColor = true;
@@ -168,7 +168,7 @@
             this.dgvContactos.Name = "dgvContactos";
             this.dgvContactos.RowHeadersWidth = 51;
             this.dgvContactos.RowTemplate.Height = 24;
-            this.dgvContactos.Size = new System.Drawing.Size(779, 321);
+            this.dgvContactos.Size = new System.Drawing.Size(779, 336);
             this.dgvContactos.TabIndex = 33;
             this.dgvContactos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvContactos_CellContentClick);
             // 
@@ -178,7 +178,7 @@
             this.btnBuscar.Location = new System.Drawing.Point(123, 268);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(98, 60);
+            this.btnBuscar.Size = new System.Drawing.Size(98, 34);
             this.btnBuscar.TabIndex = 34;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -186,9 +186,10 @@
             // 
             // btnExportar
             // 
-            this.btnExportar.Location = new System.Drawing.Point(14, 327);
+            this.btnExportar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportar.Location = new System.Drawing.Point(14, 309);
             this.btnExportar.Name = "btnExportar";
-            this.btnExportar.Size = new System.Drawing.Size(207, 23);
+            this.btnExportar.Size = new System.Drawing.Size(207, 34);
             this.btnExportar.TabIndex = 35;
             this.btnExportar.Text = "exportar";
             this.btnExportar.UseVisualStyleBackColor = true;
@@ -198,7 +199,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 362);
+            this.ClientSize = new System.Drawing.Size(1018, 351);
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvContactos);
